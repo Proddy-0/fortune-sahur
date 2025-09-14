@@ -2,14 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-
-// Headers específicos de sistema operacional
-#ifdef _WIN32
 #include <windows.h> // Para acentuação e Sleep
-#else
 #include <unistd.h>  // Para sleep e usleep
 #include <locale.h>  // Para setlocale
-#endif
 
 // --- ESTRUTURAS DE DADOS ---
 
